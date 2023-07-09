@@ -34,6 +34,10 @@
     line-height: 30px;
 }
 
+.common_desc{
+    color: #757575;
+}
+
 /* ------------- nav related style ------------*/
 nav{
     display: flex;
@@ -113,4 +117,20 @@ main{
 }
 .about_info{
     text-align: center;
+}
+/* -----------------skills------------------------ */
+.skills_container{
+    display: flex;
+}
+.skill{
+    padding: 30px 30px;
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill_img{
+    margin-bottom: 16px;
+}
+.skill_title{
+    margin-bottom: 14px;
 }
